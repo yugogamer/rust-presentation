@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# rust-presentation
 
-You can use the [editor on GitHub](https://github.com/yugogamer/rust-presentation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Installer Rust
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Linux et MacOs
+```bash
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Windows
+Installer Visual Studio avec tout les paquet c++ (on ne parle pas de Visual Studio Code attention).
 
-### Jekyll Themes
+Rendez vous sur cette page : https://www.rust-lang.org/fr/tools/install
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yugogamer/rust-presentation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Telecharger l'installeur et lancer le.
 
-### Support or Contact
+## Utiliser Rust
+Choisisez votre IDE ou éditeur de text préférer.
+Installer les plugin Rust
+ - Intelij Idea : 
+   - https://plugins.jetbrains.com/plugin/8182-rust
+ - Visual Studio Code : 
+   - https://marketplace.visualstudio.com/items?itemName=rust-lang.rust 
+   - https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Affin de crée un projet, crée un fichier, allez dedans avec votre terminal et taper :
+```bash
+    cargo init
+```
+
+Vous devriers vous retrouver avec l'arborecente suivante
+```folder
+├── Cargo.lock
+├── Cargo.toml
+└── src
+    └── main.rs
+```
+
+Cargo.lock est a ignorer
+Cargo.toml contient les information de l'application du projet, sa version, les auteur,
+les dépendance utiliser.
+
+src contientdra votre future code, pour le moment il ne posséde que le fichier main.rs .
+
+Pour lancher les différent exemple executer :
+```bash
+    cargo run --bin <noms du fichier>
+```
+n'hésiter pas a les modifier et tester avec le comportement des variables.
