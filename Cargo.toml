@@ -1,0 +1,15 @@
+[package]
+name = "rust-presentation"
+version = "0.1.0"
+edition = "2021"
+authors = ["yugogamer yugogamer@yugogamer.fr"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+
+[[bin]]
+name = "ownership_and_borrowing"
+path = "src/ownership_and_borrowing/main.rs"
