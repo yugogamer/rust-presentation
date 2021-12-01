@@ -13,3 +13,7 @@ authors = ["yugogamer yugogamer@yugogamer.fr"]
 [[bin]]
 name = "ownership_and_borrowing"
 path = "src/ownership_and_borrowing/main.rs"
+
+[[bin]]
+name = "mutabiliter"
+path = "src/mutabiliter/main.rs"
