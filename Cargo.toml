@@ -17,3 +17,11 @@ path = "src/ownership_and_borrowing/main.rs"
 [[bin]]
 name = "mutabiliter"
 path = "src/mutabiliter/main.rs"
+
+[[bin]]
+name = "structure_de_donnes"
+path = "src/structure_de_donnes/main.rs"
+
+[[bin]]
+name = "pattern_matching"
+path = "src/pattern_matching/main.rs"
