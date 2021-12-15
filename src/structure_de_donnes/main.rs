@@ -28,3 +28,4 @@ fn main(){
     let air = rectangle.get_air();
     println!("L'air pour le rectangle de largeur {} et de hauteur {} est {}", rectangle.largeur, rectangle.hauteur, air);
 }
+

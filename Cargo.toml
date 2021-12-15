@@ -25,3 +25,15 @@ path = "src/structure_de_donnes/main.rs"
 [[bin]]
 name = "pattern_matching"
 path = "src/pattern_matching/main.rs"
+
+[[bin]]
+name = "fonction"
+path = "src/fonction/main.rs"
+
+[[bin]]
+name = "erreur"
+path = "src/erreur/main.rs"
+
+[[bin]]
+name = "reference_counter"
+path = "src/reference_counter/main.rs"
